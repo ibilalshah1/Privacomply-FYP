@@ -57,3 +57,4 @@ Thumbs.db
 # ─── Temp scripts ────────────────────────────────────────────
 temp_*.bat
 temp_*.sh
+*.pdf
