@@ -1,0 +1,59 @@
+# ─── Environment & secrets ───────────────────────────────────
+.env
+.env.*
+**/.env
+**/.env.*
+
+# ─── Python ──────────────────────────────────────────────────
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+.Python
+
+# ─── Backend runtime / generated files ───────────────────────
+backend/preload_cache.pkl
+backend/test.py
+*.pkl
+*.sqlite
+*.db
+
+# ─── Node / Frontend ─────────────────────────────────────────
+node_modules/
+frontend/node_modules/
+frontend/dist/
+*.local
+
+# ─── Logs ────────────────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ─── Editor / OS ─────────────────────────────────────────────
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ─── Temp scripts ────────────────────────────────────────────
+temp_*.bat
+temp_*.sh
