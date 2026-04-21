@@ -1,6 +1,6 @@
-# PrivaComply
+# Final Year Project
 
-Final Year Project
+
 **Privacomply-Automated compliance auditing tool to detect GDPR & PDPA violations in websites privacy policies and cookie banners**  
 
 ---
