@@ -31,9 +31,6 @@ import json
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from urllib.parse import urlparse
 
-from dotenv import load_dotenv
-
-load_dotenv(os.path.join(_ROOT, ".env"))
 
 from pipeline import CompliancePipeline, export_json, print_report
 from scraper import scrape_privacy_policy

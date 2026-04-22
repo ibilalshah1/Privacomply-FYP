@@ -50,7 +50,7 @@ from models import CategoryResult, ComplianceReport, LabelResult
 # ─────────────────────────────────────────────
 embedding_model  = SentenceTransformer(EMBED_MODEL)
 anthropic_client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
-qdrant           = QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY)
+qdrant           = QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY, check_compatibility=False)
 
 # Holds preloaded Qdrant context per regulation — built once at first analyze() call
 _preloaded_data: dict[str, dict] = {}

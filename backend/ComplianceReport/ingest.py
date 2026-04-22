@@ -64,7 +64,7 @@ CACHE_DIR = Path(_ROOT) / "doc_cache"
 CACHE_DIR.mkdir(exist_ok=True)
 
 embedding_model = SentenceTransformer(EMBED_MODEL)
-qdrant = QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY, timeout=60)
+qdrant = QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY, timeout=60, check_compatibility=False)
 
 
 # ═══════════════════════════════════════════════
